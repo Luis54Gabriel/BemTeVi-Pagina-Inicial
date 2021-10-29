@@ -1,0 +1,78 @@
+/*   RESET   */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+p {
+    font-size: 1em;
+}
+
+
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+
+/* NAVBAR */
+#logo {
+    height: 80px;
+    width: 100px;
+    margin-right: 15px;
+    padding-bottom: 10px;
+}
+
+#titulo {
+    color: rgb(255, 187, 0);
+    font-size: 50px;
+}
+
+#nav {
+    background-color: #fff6a3;
+}
+
+#nav a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    transition: 1s;
+    color: black;
+}
+
+#nav a:hover {
+    color: rgb(175, 128, 0);
+    transition: 1s;
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+@media screen (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
